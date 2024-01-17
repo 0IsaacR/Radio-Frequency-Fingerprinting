@@ -1,5 +1,9 @@
 Under construction !
 
+In this folder we take the RF waveforms and extract features from the signals.
+
+REQUIREMENTS:   MATLAB Audio_System_Toolbox
+
 Method 1
 Extract 13 key features:
   Name: Integer value refering to which UAV is transmitting.
@@ -21,4 +25,8 @@ FREQUENCY BASED:
 
 
 Method 2 
-Extract Linear Frequency Cepstrum Coefficients and make them into features
+Extract Linear Frequency Cepstrum Coefficients and engineer new features
+
+In this method we use audio based techniques to extract 188 features.
+
+After creating these two datasets you can use the built in apps on MATLAB such as the Classification Learner to run different machine learning models on these datasets.
