@@ -1,7 +1,4 @@
-This page is under construction!
-
-
-This python code converts the SigMF data to matlab files.
+This python code converts the SigMF bin and json data to matlab files (recordings).
 
 The data for this project can be found here:
 
@@ -10,6 +7,9 @@ The data for this project can be found here:
 Once you download the zip file, you should decompress it and find a folder named UAV-Sigmf-float16. This folder contains all the data, if you would like to place it somewhere else go ahead!
 
 Make sure you have the path to where your folder is located, for example '/my_path/UAV-Sigmf-float16/'.
+
 Secondly, you need the path to where you would like to store the matlab files. Usually you would make a new folder next to UAV-Sigmf-float16. for example  '/my_path/MATLAB_files/'.
 
 Lastly download the binary_to_mat_converter.ipynb and open it with your favorite python IDE. Update the paths at the top with your own paths and run the code.
+
+Once you have successfully extracted the MATLAB recordings please visit the IQ Dataset Creator folder.
