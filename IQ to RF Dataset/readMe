@@ -1,1 +1,6 @@
-This page is under construction !
+
+In this section, I take the IQ dataset and convert it to time based signals. This code will take all the data for UAV's 
+seperately and save it on your local machine. I do this in order to compartmentalize the data and not overload MATLAB 
+with too much data.
+
+Once you have the 7 UAV waveform files we can continue to feature extraction.
