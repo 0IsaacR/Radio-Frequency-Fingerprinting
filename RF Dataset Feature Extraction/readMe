@@ -1,1 +1,24 @@
 Under construction !
+
+Method 1
+Extract 13 key features:
+  Name: Integer value refering to which UAV is transmitting.
+TIME BASED:
+  Feature 1    Mean
+  Feature 2    Peak Value
+  Feature 3    Standard Deviation
+  Feature 4    Shape Factor
+  Feature 5    Signal to Noise Ratio
+  Feature 6    Crest Factor
+  Feature 7    Clearance Factor
+  Feature 8    Impulse Factor
+FREQUENCY BASED:
+  Feature 9    Mean Frequency
+  Feature 10   Median Frequency
+  Feature 11   Band Power
+  Feature 12   Occupied Bandwidth
+  Feature 13   Power Bandwidth
+
+
+Method 2 
+Extract Linear Frequency Cepstrum Coefficients and make them into features
