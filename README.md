@@ -7,3 +7,12 @@ method tries to use 13 features but the results are not great. Our second method
 indicate that 188 points per signal does a pretty good job. Using these 188 points, what else can we find out about the signal?
 
 If you would like to replicate this project. Please download the data and start with SigMF to MATLAB folder.
+
+Steps to replicate this project
+  Download data
+  SigMF to MATLAB 
+  IQ Dataset Creator
+  IQ to RF Dataset
+  RF Dataset Feature Extraction    ***(Audio System Toolbox Required)***
+  Then use the built in apps on MATLAB (Classification Learner) to test different machine learning models
+  
