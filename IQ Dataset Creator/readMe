@@ -16,8 +16,8 @@ This dataset is composed of several features:
 
     Signal: is a set of 97,000 complex data points per recording
 
+Now that we have our IQ dataset, we will transform our IQ data to a time based signal.
 
-
-
+Please open folder IQ to RF Dataset.
 
 
