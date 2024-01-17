@@ -1,1 +1,23 @@
+
 This page is under construction
+
+This MATLAB code takes the MATLAB recordings and creates a dataset. 
+This dataset is composed of several features:
+
+    Name: is an integer value refering to which UAV the data belongs to
+
+    Distance: is an integer value in feet refering to different distances at which the data was collected
+
+    Burst: is an integer value refering to which burst the data belongs to. (out of 4)
+
+    Fcenter: is a value refering to the center frequency of the data.
+
+    Phase: is the offset radian angle. (97,000 points)
+
+    Signal: is a set of 97,000 complex data points per recording
+
+
+
+
+
+
